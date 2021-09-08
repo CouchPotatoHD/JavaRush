@@ -12,8 +12,8 @@ public class StaticCats {
 
     }
 
-    public static class Cat {
-       public static int catCount = 0;
+    private static class Cat {
+        private static int catCount = 0;
 
         public Cat(){
             catCount++;
